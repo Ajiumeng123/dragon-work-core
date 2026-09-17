@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: dragon-work
+  banner:
+    location: classpath:banner.txt
+    charset: UTF-8
+  servlet:
+    multipart:
+      max-request-size: 10MB
+      max-file-size: 10MB
+server:
+  port: 17623
+  servlet:
+    context-path: /dragon-work
+  address: 127.0.0.1

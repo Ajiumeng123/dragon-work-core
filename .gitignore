@@ -1,0 +1,95 @@
+### Maven / 构建 ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.flattened-pom.xml
+.mvn/timing.properties
+# Wrapper JAR 由 mvn wrapper 生成，一般不提交（保留 mvnw / properties）
+.mvn/wrapper/maven-wrapper.jar
+
+### Gradle（若混用）###
+.gradle/
+build/
+
+### Java 编译散落物 ###
+*.class
+hs_err_pid*
+replay_pid*
+
+### 打包产物（不在 target 下的例外路径）###
+*.war
+*.ear
+*.nar
+
+### IDE — IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### IDE — Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### IDE — NetBeans ###
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+### IDE — VS Code / Cursor ###
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.cursor/
+
+### 编辑器临时文件 ###
+*.swp
+*.swo
+*~
+*.orig
+*.bak
+
+### 操作系统 ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+### 日志 ###
+*.log
+logs/
+
+### 本地配置与密钥（勿提交）###
+.env
+.env.*
+!.env.example
+*.local.yml
+*.local.yaml
+*.local.properties
+application-local.yml
+application-local.yaml
+**/secrets/
+*.pem
+*.key
+*.p12
+*.jks
+
+### 本地 / 生成文档草稿（按需保留 docs 下正式 md）###
+docs/_gen*
+docs/**/*.docx
+*.docx
+
+### Spring Initializr 默认帮助（已有 README）###
+**/HELP.md
