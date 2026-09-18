@@ -7,7 +7,7 @@ Dragon Work 的 **Java 后端服务**，与配套桌面前端一起使用：前�
 | | |
 |---|---|
 | **本仓库（后端）** | `dragon-work-core` — 你正在看的这个仓库 |
-| **配套前端** |  `[dragon-work](https://github.com/Ajiumeng123/dragon-work)` |
+| **配套前端** |  [dragon-work](https://github.com/Ajiumeng123/dragon-work) |
 
 
 默认只监听本机：`http://127.0.0.1:17623/dragon-work`（前端开发时直连该 Base，见 `docs/` 对接说明）。
@@ -88,7 +88,7 @@ SSE 每条为 JSON 字符串，`type` 见 `StreamMsgConstant`（如 `model_text`
 
 ## 前端对接
 
-- **配套前端仓库**：`[dragon-work](https://github.com/Ajiumeng123/dragon-work)`（
+- **配套前端仓库**：[dragon-work](https://github.com/Ajiumeng123/dragon-work)（
 - 其它 SSE、MCP 配置等协议说明以前端仓库文档为准；后端接口 Base 为 `/dragon-work`
 
 已启用 CORS（`allowedOriginPatterns: *`），便于本地 WebView / 开发服务器直连后端。
