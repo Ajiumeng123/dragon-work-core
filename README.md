@@ -7,9 +7,8 @@ Dragon Work 的 **Java 后端服务**，与配套桌面前端一起使用：前�
 | | |
 |---|---|
 | **本仓库（后端）** | `dragon-work-core` — 你正在看的这个仓库 |
-| **配套前端** | **待填写** → `https://github.com/<org>/<frontend-repo>` |
+| **配套前端** |  `https://github.com/Ajiumeng123/dragon-work` |
 
-> 发布前端仓库后，把上表中的 URL 换成真实地址（例如 `https://github.com/xxx/wolf-work`）。
 
 默认只监听本机：`http://127.0.0.1:17623/dragon-work`（前端开发时直连该 Base，见 `docs/` 对接说明）。
 
