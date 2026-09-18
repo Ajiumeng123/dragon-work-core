@@ -88,8 +88,7 @@ SSE 每条为 JSON 字符串，`type` 见 `StreamMsgConstant`（如 `model_text`
 
 ## 前端对接
 
-- **配套前端仓库**：`https://github.com/<org>/<frontend-repo>`（请替换为实际上游前端项目 URL）
-- **本仓库文档**：[docs/frontend-session-history.md](docs/frontend-session-history.md) — 历史会话 REST
+- **配套前端仓库**：`[https://github.com/<org>/<frontend-repo>](https://github.com/Ajiumeng123/dragon-work)`（
 - 其它 SSE、MCP 配置等协议说明以前端仓库文档为准；后端接口 Base 为 `/dragon-work`
 
 已启用 CORS（`allowedOriginPatterns: *`），便于本地 WebView / 开发服务器直连后端。
